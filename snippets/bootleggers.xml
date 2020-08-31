@@ -52,6 +52,7 @@
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="trb" />
+  <project path="external/pulse" name="external_pulse" remote="bootleggers" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="trb" />
   <project path="external/arm-optimized-routines" name="arm-optimized-routines" remote="trb" />
@@ -72,16 +73,18 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="trb" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bootleggers" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="trb" />
   <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="trb" />
-  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="trb" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="trb" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
+  <project path="packages/apps/ShishufiedHeaders" name="packages_apps_ShishufiedHeaders" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
+  <project path="packages/modules/PotatoPlugins" name="packages_modules_PotatoPlugins" remote="bootleggers" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="trb" />
@@ -98,5 +101,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="trb" />
+  <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 
 </manifest>
