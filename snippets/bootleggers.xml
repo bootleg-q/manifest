@@ -56,6 +56,9 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="trb" />
   <project path="external/arm-optimized-routines" name="arm-optimized-routines" remote="trb" />
+  <project path="external/skia" name="external_skia" groups="pdk" remote="trb" />
+  <project path="external/libpng" name="external_libpng" groups="pdk" remote="trb" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="trb" />
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="trb" />
