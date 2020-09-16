@@ -66,8 +66,8 @@
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="trb" />
-  <project path="frameworks/base" name="frameworks_base" remote="trb" />
-  <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
+  <project path="frameworks/base" name="frameworks_base" remote="trb" revision="wip"/>
+  <project path="frameworks/native" name="frameworks_native" remote="trb" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="trb" />
   <project path="frameworks/rs" name="frameworks_rs" remote="trb" />
 
@@ -88,10 +88,10 @@
   <project path="packages/apps/ShishufiedHeaders" name="packages_apps_ShishufiedHeaders" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
   <project path="packages/modules/PotatoPlugins" name="packages_modules_PotatoPlugins" remote="bootleggers" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="trb" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="trb" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="trb" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="trb" />
 
@@ -99,7 +99,7 @@
   <project path="system/bt" name="system_bt" remote="trb" />
   <project path="system/core" name="system_core" remote="trb" />
   <project path="system/netd" name="system_netd" remote="bootleggers" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="trb" />
   <project path="system/vold" name="system_vold" remote="bootleggers" />
 
   <!-- Vendor -->
