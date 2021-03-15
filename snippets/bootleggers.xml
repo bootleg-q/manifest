@@ -58,7 +58,10 @@
   <project path="external/arm-optimized-routines" name="arm-optimized-routines" remote="trb" />
   <project path="external/skia" name="external_skia" groups="pdk" remote="trb" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="trb" />
+  <project path="external/libavc" name="external_libavc" remote="trb" />
+  <project path="external/okhttp" name="external_okhttp" remote="trb" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="trb" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="trb" />
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="trb" />
@@ -94,6 +97,9 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="trb" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="trb" />
+
+  <!-- Libcore --> 
+  <project path="libcore" name="libcore" remote="trb" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="trb" />
