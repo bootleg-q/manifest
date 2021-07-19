@@ -98,9 +98,6 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="trb" />
 
-  <!-- Libcore --> 
-  <project path="libcore" name="libcore" remote="trb" />
-
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="trb" />
   <project path="system/core" name="system_core" remote="trb" />
